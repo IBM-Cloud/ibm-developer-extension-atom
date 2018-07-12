@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg?style=flat)](https://raw.githubusercontent.com/IBM-Bluemix/ibm-developer-extension-vscode/master/LICENSE.txt)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg?style=flat)](https://raw.githubusercontent.com/IBM-Cloud/ibm-developer-extension-vscode/master/LICENSE.txt)
 
 # IBM Cloud Developer Tools for Atom
 
@@ -9,27 +9,27 @@ This extension provides capabilities for the IBM Cloud Developer CLI from direct
 
 ## Usage
 
-Easily invoke commands from the IBM Bluemix Developer CLI from directly inside of the Atom editor:
+Easily invoke commands from the IBM Cloud Developer CLI from directly inside of the Atom editor:
 
-- Use the `ibmcloud login` command to log in to Bluemix
+- Use the `ibmcloud login` command to log in to IBM Cloud
 
 Steps to get started:
 - Create a project using one of the two methods below:
-    - `ibmcloud dev create` using the Bluemix Developer CLI (outside of Atom)
-    - [Bluemix Web console](https://console.ng.bluemix.net/developer/getting-started/)
+    - `ibmcloud dev create` using the IBM Cloud Developer CLI (outside of Atom)
+    - [IBM Cloud Web console](https://console.ng.bluemix.net/developer/getting-started/)
 - Open the *project’s folder* locally in the Atom editor
 - Open the Atom command pallette (`CMD-Shift-P`)
   - Use the `ibmcloud dev build` command to build the app into a Docker image
   - Use the `ibmcloud dev run` command to run the app in local Docker in release mode
-  - Use the `ibmcloud dev console` command to open your project on Bluemix in a web browser
+  - Use the `ibmcloud dev console` command to open your project on IBM Cloud in a web browser
 
 
 
 ## Requirements/Dependencies
 
-* [Bluemix CLI](https://plugins.ng.bluemix.net/ui/home.html)
-* Bluemix `dev` cli plugin   
-    After installing the Bluemix CLI, open up a terminal and run `ibmcloud plugin install dev -r Bluemix`
+* [IBM Cloud CLI](https://plugins.ng.bluemix.net/ui/home.html)
+* IBM Cloud `dev` cli plugin   
+    After installing the IBM Cloud CLI, open up a terminal and run `ibmcloud plugin install dev -r Bluemix`
 * [Docker](https://www.docker.com/) - required by `ibmcloud dev` containers
 
 
@@ -39,7 +39,7 @@ Steps to get started:
 All improvements to the Bluemix Dev Extension for Atom are very welcome! Here's how to get started ...
 
 Fork this repository.
-$ git clone https://github.com/IBM-Bluemix/ibm-developer-extension-atom.git
+$ git clone https://github.com/IBM-Cloud/ibm-developer-extension-atom.git
 
 Start making your changes, then send us a pull request.
 
@@ -49,7 +49,7 @@ You can find more info about the development environment and configuration in ou
 
 ## ⚠️  Bugs / Issues / Defects
 
-Find a bug?  [Let us know here](https://github.com/IBM-Bluemix/ibm-developer-extension-atom/issues)
+Find a bug?  [Let us know here](https://github.com/IBM-Cloud/ibm-developer-extension-atom/issues)
 
 For additional support, find us on Slack or Stack Overflow using the links below.
 
