@@ -1,0 +1,60 @@
+{
+  "name": "ibm-cloud-developer-tools",
+  "main": "./lib/ibm-developer-extension-atom",
+  "version": "0.0.1",
+  "description": "This extension provides capabilities for the IBM Cloud Developer CLI from directly within the Atom editor. Use the Packages menu or command palette to quickly access ibmcloud dev commands, without the need to leave the editor's context.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "ibm-cloud-developer:show",
+      "ibm-cloud-developer:clear",
+      "ibm-cloud-developer:list",
+      "ibm-cloud-developer:build",
+      "ibm-cloud-developer:build.release",
+      "ibm-cloud-developer:debug",
+      "ibm-cloud-developer:deploy",
+      "ibm-cloud-developer:run",
+      "ibm-cloud-developer:status",
+      "ibm-cloud-developer:stop",
+      "ibm-cloud-developer:test",
+      "ibm-cloud-developer:view",
+      "ibm-cloud-developer:console"
+    ]
+  },
+  "repository": "https://github.com/atom/ibm-developer-extension-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "ps-tree": "^1.1.0"
+  },
+  "ibm": {
+    "cli": {
+      "command": "ibmcloud",
+      "version": "0.5.6",
+      "url": "https://console.ng.bluemix.net/docs/cli/reference/bluemix_cli/index.html#getting-started"
+    },
+    "plugins": [
+      {
+        "displayName": "dev",
+        "command": "dev",
+        "version": "1.0.5",
+        "url": "https://console.ng.bluemix.net/docs/cloudnative/cli.html"
+      },
+      {
+        "displayName": "sdk-gen",
+        "command": "sdk",
+        "version": "0.1.1",
+        "url": "https://console.ng.bluemix.net/docs/cloudnative/sdk_cli.html#sdk-cli"
+      },
+      {
+        "displayName": "container-service",
+        "command": "cs",
+        "version": "0.1.259",
+        "url": "https://console.ng.bluemix.net/docs/containers/cs_cli_devtools.html"
+      }
+    ]
+  }
+}

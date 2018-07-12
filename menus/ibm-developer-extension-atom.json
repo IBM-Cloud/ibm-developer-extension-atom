@@ -1,0 +1,69 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "IBM Cloud Developer Tools",
+          "submenu": [
+            {
+              "label": "Show Panel",
+              "command": "ibm-cloud-developer:show"
+            },
+            {
+              "label": "Clear Log",
+              "command": "ibm-cloud-developer:clear"
+            },
+            {"type": "separator"},
+            {
+              "label": "List all of your Apps",
+              "command": "ibm-cloud-developer:list"
+            },
+            {"type": "separator"},
+            {
+              "label": "Build for Debug",
+              "command": "ibm-cloud-developer:build"
+            },
+            {
+              "label": "Build for Release",
+              "command": "ibm-cloud-developer:build.release"
+            },
+            {
+              "label": "Deploy",
+              "command": "ibm-cloud-developer:deploy"
+            },
+            {
+              "label": "Run",
+              "command": "ibm-cloud-developer:run"
+            },
+            {
+              "label": "Status",
+              "command": "ibm-cloud-developer:status"
+            },
+            {
+              "label": "Stop",
+              "command": "ibm-cloud-developer:stop"
+            },
+            {
+              "label": "Test",
+              "command": "ibm-cloud-developer:test"
+            },
+            {"type": "separator"},
+            {
+              "label": "Open in IBM Cloud Console",
+              "command": "ibm-cloud-developer:console"
+            },
+            {
+              "label": "View Deployed Instance",
+              "command": "ibm-cloud-developer:view"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
