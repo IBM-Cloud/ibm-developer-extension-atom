@@ -21,7 +21,7 @@
       "ibm-cloud-developer:console"
     ]
   },
-  "repository": "https://github.com/atom/ibm-developer-extension-atom",
+  "repository": "https://github.com/IBM-Cloud/ibm-developer-extension-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
