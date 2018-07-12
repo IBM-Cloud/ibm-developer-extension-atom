@@ -1,4 +1,3 @@
-[![Build
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg?style=flat)](https://raw.githubusercontent.com/IBM-Bluemix/ibm-developer-extension-vscode/master/LICENSE.txt)
 
 # IBM Cloud Developer Tools for Atom
