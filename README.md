@@ -9,16 +9,16 @@ This extension provides capabilities for the IBM Cloud Developer CLI from direct
 
 ## Usage
 
-Easily invoke commands from the IBM Bluemix Developer CLI from directly inside of the VS Code editor:
+Easily invoke commands from the IBM Bluemix Developer CLI from directly inside of the Atom editor:
 
 - Use the `ibmcloud login` command to log in to Bluemix
 
 Steps to get started:
 - Create a project using one of the two methods below:
-    - `ibmcloud dev create` using the Bluemix Developer CLI (outside of VS Code)
+    - `ibmcloud dev create` using the Bluemix Developer CLI (outside of Atom)
     - [Bluemix Web console](https://console.ng.bluemix.net/developer/getting-started/)
 - Open the *project’s folder* locally in the Atom editor
-- Open the VS Code command pallette (`CMD-Shift-P`)
+- Open the Atom command pallette (`CMD-Shift-P`)
   - Use the `ibmcloud dev build` command to build the app into a Docker image
   - Use the `ibmcloud dev run` command to run the app in local Docker in release mode
   - Use the `ibmcloud dev console` command to open your project on Bluemix in a web browser
