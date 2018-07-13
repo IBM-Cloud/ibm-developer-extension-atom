@@ -1,7 +1,7 @@
 {
   "name": "ibm-cloud-developer-tools",
   "main": "./lib/ibm-developer-extension-atom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This extension provides capabilities for the IBM Cloud Developer CLI from directly within the Atom editor. Use the Packages menu or command palette to quickly access ibmcloud dev commands, without the need to leave the editor's context.",
   "keywords": [],
   "activationCommands": {
