@@ -22,8 +22,10 @@
 }
 
 .output {
-  font-family: monospace;
   white-space: pre;
+  font-family: var(--editor-font-family);
+  font-size: var(--editor-font-size);
+  line-height: var(--editor-line-height);
 }
 
 .ibm-title {
@@ -52,4 +54,25 @@
 
 .ibm-clear-button:hover {
   color:red;
+}
+
+.numeric {
+  font-weight: bold;
+}
+
+.numeric {
+  font-weight: bold;
+}
+
+hidden {
+  display: none;
+  visibility: hidden;
+}
+
+progress {
+  width:100%;
+}
+
+progress:not([value]) {
+   /* Styling here */
 }

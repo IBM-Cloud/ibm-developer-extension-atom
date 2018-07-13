@@ -26,11 +26,11 @@
             {"type": "separator"},
             {
               "label": "Build for Debug",
-              "command": "ibm-cloud-developer:build"
+              "command": "ibm-cloud-developer:buildbuild-for-debug"
             },
             {
               "label": "Build for Release",
-              "command": "ibm-cloud-developer:build.release"
+              "command": "ibm-cloud-developer:buildbuild-for-release"
             },
             {
               "label": "Deploy",
